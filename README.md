@@ -74,6 +74,9 @@ VALUES
 ```
 ![screen](files/screen1.png)
 
+
+
+
 Pour visualiser les résultats : Apres avoir coller ces lignes de code, supprimer tout puis mettre : 
 
 ```sql
