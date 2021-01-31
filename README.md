@@ -92,7 +92,7 @@ UPDATE athletes
 SET gender = 'Male'
 WHERE gender = 'm';
 ```
-![screen2](files/screen2.png)
+![screen2](https://github.com/YounesAnys/leaderboard/blob/main/files/screen2.PNG)
 
 
 Et maintenant, on selectionne tous les athlètes de genre masculin «Male»
@@ -104,7 +104,7 @@ FROM athletes
 WHERE gender = 'Male';
 ```
 
-![screen3](files/screen3.png)
+![screen3](https://github.com/YounesAnys/leaderboard/blob/main/files/screen3.PNG)
 
 #### DELETE
 
