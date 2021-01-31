@@ -70,7 +70,7 @@ VALUES
 (4, 'Marie', '1995-06-09', 'f');
 ```
 
-Apres avoir coller ces lignes de code, supprimer tout puis mettre : 
+Pour visualiser les résultats : Apres avoir coller ces lignes de code, supprimer tout puis mettre : 
 ```sql
 SELECT * 
 FROM athletes;
