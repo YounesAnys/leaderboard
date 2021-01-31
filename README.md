@@ -92,6 +92,8 @@ UPDATE athletes
 SET gender = 'Male'
 WHERE gender = 'm';
 ```
+![screen2](files/screen2.png)
+
 
 Et maintenant, on selectionne tous les athlètes de genre masculin «Male»
 #### SELECT
@@ -101,6 +103,9 @@ SELECT *
 FROM athletes
 WHERE gender = 'Male';
 ```
+
+![screen3](files/screen3.png)
+
 #### DELETE
 
 Supprimons tous les athlètes.
