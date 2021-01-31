@@ -68,6 +68,27 @@ VALUES
 (4, 'Marie', '1995-06-09', 'f');
 ```
 
+Mettez à jour tous les «m» à «Male».
+
+```sql
+UPDATE athletes
+SET identified_gender = 'Male'
+WHERE identified_gender = 'm';
+```
+
+Et maintenant, on selectionne tous les athlètes de genre masculin «Male»
+
+```sql
+SELECT *
+FROM athletes
+WHERE identified_gender = 'Male';
+```
+
+Supprimons tous les athlètes.
+
+```sql
+DELETE FROM athletes;
+```
 
 
 
