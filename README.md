@@ -72,7 +72,7 @@ VALUES
 (3, 'Emma', '2000-09-24', 'f'),
 (4, 'Marie', '1995-06-09', 'f');
 ```
-![](files/screen1.png)
+![screen](files/screen1.png)
 
 Pour visualiser les résultats : Apres avoir coller ces lignes de code, supprimer tout puis mettre : 
 
