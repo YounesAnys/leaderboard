@@ -72,7 +72,7 @@ VALUES
 (3, 'Emma', '2000-09-24', 'f'),
 (4, 'Marie', '1995-06-09', 'f');
 ```
-![screen](files/screen1.png)
+![screen](https://github.com/YounesAnys/leaderboard/blob/main/files/screen1.PNG)
 
 
 
