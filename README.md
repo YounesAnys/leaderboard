@@ -31,6 +31,6 @@ Le diagramme ER a été créé avec Lucidchart.
 
 ## Modèle relationnel
 
-Le modèle relationnel (diagramme) a également été créé avec Lucidchart
+Le modèle relationnel a également été créé avec Lucidchart
 
 ![Modèle relationnel](files/RelationalModel.png)
