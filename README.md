@@ -22,3 +22,7 @@
 | 1.0 | README.md contient toutes les informations requises |
 | 1.0 | Utilisation de git (messages de commit, tous les étudiants impliqués) |
 | / 10 | |
+
+## Modèle ER
+
+Le diagramme ER a été créé avec [Lucidchart](/lucidchart.md).
