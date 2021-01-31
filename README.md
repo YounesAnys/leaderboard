@@ -29,11 +29,14 @@ Le diagramme ER a été créé avec Lucidchart.
 
 ![Modèle ER](files/modelER.png)
 
+(Veuillez cliquer sur l'image pour accéder a son fichier source)
 ## Modèle relationnel
 
 Le modèle relationnel a également été créé avec Lucidchart
 
 ![Modèle relationnel](files/RelationalModel.png)
+
+(Veuillez cliquer sur l'image pour accéder a son fichier source)
 
 ## Schéma SQL
 
