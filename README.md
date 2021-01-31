@@ -28,7 +28,7 @@ nom, leur date de naissance et leur sexe identifié.
 
 ## Modèle ER
 
-Le diagramme ER a été créé avec Lucidchart.
+Le diagramme ER a été créé avec [Lucidchart](https://www.lucidchart.com/pages/fr)
 
 ![Modèle ER](files/modelER.png)
 
