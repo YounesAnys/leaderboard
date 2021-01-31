@@ -14,7 +14,7 @@
 ### Livrable 1 (5%) Hello-World
 
 | Note | Description | 
-| --- | --- | --- |
+| --- | --- |
 | 2.0 | Configuration du repo GitHub |
 | 2.5 | Modèle ER |
 | 2.5 | Modèle relationnel / schéma SQL | 
