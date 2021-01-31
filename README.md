@@ -23,6 +23,9 @@
 | 1.0 | Utilisation de git (messages de commit, tous les étudiants impliqués) |
 | / 10 | |
 
+La base de données du leaderboard doit uniquement modéliser les athlètes et inclure des détails tels que leur
+nom, leur date de naissance et leur sexe identifié.
+
 ## Modèle ER
 
 Le diagramme ER a été créé avec Lucidchart.
