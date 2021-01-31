@@ -6,7 +6,7 @@
 | --- | --- |
 | Cours | CSI 2532 |
 | Date | Hiver 2021 |
-| Professor | [Andrew Forward] |
+| Professor | Andrew Forward |
 | Equipe | Younes Anys (300145843) |
 
 ## Livrables
