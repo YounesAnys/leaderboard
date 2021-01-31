@@ -34,3 +34,19 @@ Le diagramme ER a été créé avec Lucidchart.
 Le modèle relationnel a également été créé avec Lucidchart
 
 ![Modèle relationnel](files/RelationalModel.png)
+
+## Schéma SQL
+
+Cela a été testé avec [Online SQL Interpreter](https://www.db-book.com/db7/university-lab-dir/sqljs.html)
+dans le [manuel](https://www.db-book.com/db7/index.html).
+
+```sql
+CREATE TABLE athletes (
+  id int,
+  name varchar(50),
+  dob date,
+  gender varchar(6),
+  PRIMARY KEY (id)
+);
+```
+
