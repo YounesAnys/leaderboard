@@ -2,7 +2,7 @@
 
 ## Sommaire
 
-| Sommaire | Valeur |
+
 | --- | --- |
 | Cours | CSI 2532 |
 | Date | Hiver 2021 |
