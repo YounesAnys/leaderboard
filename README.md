@@ -72,7 +72,7 @@ VALUES
 (3, 'Emma', '2000-09-24', 'f'),
 (4, 'Marie', '1995-06-09', 'f');
 ```
-![Exemples de requêtes SQL](files/screen1.png)
+![](files/screen1.png)
 
 Pour visualiser les résultats : Apres avoir coller ces lignes de code, supprimer tout puis mettre : 
 
