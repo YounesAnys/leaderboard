@@ -72,7 +72,8 @@ VALUES
 
 Apres avoir coller ces lignes de code, supprimer tout puis mettre : 
 ```sql
-SELECT * FROM athletes;
+SELECT * 
+FROM athletes;
 ```
 
 Mettez à jour tous les «m» à «Male».
