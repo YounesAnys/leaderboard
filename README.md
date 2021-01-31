@@ -1,4 +1,4 @@
-# leaderboard
+# Competition Leaderboard
 
 ## Sommaire
 
