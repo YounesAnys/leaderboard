@@ -58,7 +58,7 @@ CREATE TABLE athletes (
 
 ## Exemples de requêtes SQL
 
-## INSERT
+#### INSERT
 
 Après avoir exécuté le schéma, vous pouvez tester les requêtes
 dans [Interpréteur SQL en ligne](https://www.db-book.com/db7/university-lab-dir/sqljs.html)
@@ -83,7 +83,7 @@ Pour visualiser les résultats : Apres avoir coller ces lignes de code, supprime
 SELECT * 
 FROM athletes;
 ```
-## UPDATE
+#### UPDATE
 
 Mettez à jour tous les «m» à «Male».
 
@@ -96,7 +96,7 @@ WHERE gender = 'm';
 
 
 Et maintenant, on selectionne tous les athlètes de genre masculin «Male»
-## SELECT
+#### SELECT
 
 ```sql
 SELECT *
@@ -106,7 +106,7 @@ WHERE gender = 'Male';
 
 ![screen3](files/screen3.png)
 
-## DELETE
+#### DELETE
 
 Supprimons tous les athlètes.
 
