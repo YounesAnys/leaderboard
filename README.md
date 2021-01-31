@@ -43,8 +43,8 @@ Le modèle relationnel a également été créé avec Lucidchart
 
 ## Schéma SQL
 
-Cela a été testé avec [Online SQL Interpreter](https://www.db-book.com/db7/university-lab-dir/sqljs.html)
-
+Cela a été executé et testé avec [Online SQL Interpreter](https://www.db-book.com/db7/university-lab-dir/sqljs.html)
+(juste copier-coller les lignes de code ci-dessous pour l'executer)
 
 ```sql
 CREATE TABLE athletes (
