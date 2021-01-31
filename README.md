@@ -72,8 +72,8 @@ Mettez à jour tous les «m» à «Male».
 
 ```sql
 UPDATE athletes
-SET identified_gender = 'Male'
-WHERE identified_gender = 'm';
+SET gender = 'Male'
+WHERE gender = 'm';
 ```
 
 Et maintenant, on selectionne tous les athlètes de genre masculin «Male»
@@ -81,7 +81,7 @@ Et maintenant, on selectionne tous les athlètes de genre masculin «Male»
 ```sql
 SELECT *
 FROM athletes
-WHERE identified_gender = 'Male';
+WHERE gender = 'Male';
 ```
 
 Supprimons tous les athlètes.
