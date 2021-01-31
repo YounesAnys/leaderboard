@@ -53,3 +53,21 @@ CREATE TABLE athletes (
 );
 ```
 
+## Exemples de requêtes SQL
+
+Après avoir exécuté le schéma, vous pouvez tester les requêtes
+dans [Interpréteur SQL en ligne](https://www.db-book.com/db7/university-lab-dir/sqljs.html)
+"Refresh" le navigateur pour recommencer.
+
+```sql
+INSERT INTO athletes (id, name, dob, gender)
+VALUES
+(1, 'Younes', '2001-12-01', 'm' ),
+(2, 'Alex', '1999-06-11', 'm'),
+(3, 'Emma', '2000-09-24', 'f'),
+(4, 'Marie', '1995-06-09', 'f');
+```
+
+
+
+
