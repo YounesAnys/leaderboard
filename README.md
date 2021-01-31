@@ -25,6 +25,6 @@
 
 ## Modèle ER
 
-Le diagramme ER a été créé avec [Lucidchart]
+Le diagramme ER a été créé avec Lucidchart.
 
 ![Modèle ER](files/modelER.png)
