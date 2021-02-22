@@ -22,6 +22,57 @@
 | 1.0 | Utilisation de git (messages de commit, tous les étudiants impliqués) |
 | / 10 | |
 
+Les modèles de bases de données évoluent. Ici on va gérer l'évolution de votre base de données en utilisant
+les migrations.
+
+## Modèle ER
+
+![Modèle ER](files/ER.png)
+
+## Modèle relationnel / schéma SQL
+
+## Schéma SQL
+```sql
+CREATE TABLE athletes (
+	ID int PRIMARY KEY,
+	Name varchar(50),
+	Gender varchar(6),
+	dob date
+);
+```
+```sql
+CREATE TABLE Competition (
+	Name varchar(50) PRIMARY KEY,
+	Venue varchar(50),
+	start_time date
+);
+
+```
+```sql
+CREATE TABLE leaderboard (
+	athletes int,
+	Competition varchar(50),
+	start_time date,
+	migration date,
+	PRIMARY KEY (athletes, Competition, Date),
+	foreign key (athletes) references athletes(athletes),
+	foreign key (Competition) references competition(Name),
+);
+```
+"seed" SQL
+
+exemples SQL
+
+```sql
+
+INSERT INTO athletes (ID, Name, Gender, dob)
+VALUES
+(1, 'Younes', 'M', '1995-07-11'),
+(2, 'Mohamed', 'M', '1994-08-11'),
+(3, 'Sami', 'M', '1996-02-24'),
+(4, 'Sarah', 'F', '1999-12-09');
+```
+
 ### Livrable 1 (5%) Hello-World
 
 | Note | Description | 
