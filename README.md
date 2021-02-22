@@ -22,6 +22,12 @@
 | 1.0 | Utilisation de git (messages de commit, tous les étudiants impliqués) |
 | / 10 | |
 
+Les modèles de bases de données évoluent. Ici on va gérer l'évolution de votre base de données en utilisant
+les migrations.
+
+## Modèle ER
+
+![Modèle ER](files/ER.png)
 ### Livrable 1 (5%) Hello-World
 
 | Note | Description | 
