@@ -28,6 +28,9 @@ les migrations.
 ## Modèle ER
 
 ![Modèle ER](files/ER.png)
+
+## Modèle relationnel / schéma SQL
+
 ### Livrable 1 (5%) Hello-World
 
 | Note | Description | 
