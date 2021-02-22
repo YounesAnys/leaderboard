@@ -10,6 +10,17 @@
 | Equipe | Younes Anys (300145843) |
 
 ## Livrables
+### Livrable 2 (5%)  Application + DB
+
+| Note | Description | 
+| --- | --- |
+| 3.0 | Modèle ER  |
+| 3.0 | Modèle relationnel / schéma SQL |
+| 1.0 | Application (READ-ONLY) | 
+| 1.0 | SQL "seed" / exemples pour INSERT, UPDATE, SELECT, DELETE des données |
+| 1.0 | README.md contient toutes les informations requises |
+| 1.0 | Utilisation de git (messages de commit, tous les étudiants impliqués) |
+| / 10 | |
 
 ### Livrable 1 (5%) Hello-World
 
