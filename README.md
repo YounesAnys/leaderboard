@@ -31,6 +31,36 @@ les migrations.
 
 ## Modèle relationnel / schéma SQL
 
+## Schéma SQL
+```sql
+CREATE TABLE athletes (
+	ID int PRIMARY KEY,
+	Name varchar(50),
+	Gender varchar(6),
+	dob date
+);
+```
+```sql
+CREATE TABLE Competition (
+	Name varchar(50) PRIMARY KEY,
+	Venue varchar(50),
+	start_time date
+);
+
+```
+```sql
+CREATE TABLE leaderboard (
+	athletes int,
+	Competition varchar(50),
+	start_time date,
+	migration date,
+	PRIMARY KEY (athletes, Competition, Date),
+	foreign key (athletes) references athletes(athletes),
+	foreign key (Competition) references competition(Name),
+);
+```
+
+
 ### Livrable 1 (5%) Hello-World
 
 | Note | Description | 
