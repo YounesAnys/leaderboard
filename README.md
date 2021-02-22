@@ -63,7 +63,7 @@ CREATE TABLE leaderboard (
 
 ```sql
 
-INSERT INTO Athletes (ID, Name, Gender, dob)
+INSERT INTO athletes (ID, Name, Gender, dob)
 VALUES
 (1, 'Younes', 'M', '1995-07-11'),
 (2, 'Mohamed', 'M', '1994-08-11'),
