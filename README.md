@@ -60,6 +60,7 @@ CREATE TABLE leaderboard (
 );
 ```
 "seed" SQL
+
 exemples SQL
 
 ```sql
