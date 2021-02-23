@@ -24,13 +24,13 @@ FROM athletes;
 
 DELETE
 FROM athletes 
-WHERE Name='Jean';
+WHERE Name='Younes';
 SELECT* 
 FROM athletes;
 
 UPDATE athletes 
-SET Name = 'Brivian' 
-WHERE Name = 'Pilon';
+SET Name = 'Alex' 
+WHERE Name = 'Sami';
 SELECT* 
 FROM athletes;
 

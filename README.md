@@ -32,6 +32,7 @@ les migrations.
 ## Modèle relationnel / schéma SQL
 
 ## Schéma SQL
+
 ```sql
 CREATE TABLE athletes (
 	ID int PRIMARY KEY,
@@ -39,17 +40,12 @@ CREATE TABLE athletes (
 	Gender varchar(6),
 	dob date
 );
-```
-```sql
 CREATE TABLE Competition (
 	Name varchar(50) PRIMARY KEY,
 	Venue varchar(50),
 	start_time date
 );
-
-```
-```sql
-CREATE TABLE leaderboard (
+CREATE TABLE register (
 	athletes int,
 	Competition varchar(50),
 	start_time date,
@@ -58,19 +54,118 @@ CREATE TABLE leaderboard (
 	foreign key (athletes) references athletes(athletes),
 	foreign key (Competition) references competition(Name),
 );
+
+SELECT* 
+FROM athletes;
+
+DELETE
+FROM athletes 
+WHERE Name='Younes';
+SELECT* 
+FROM athletes;
+
+UPDATE athletes 
+SET Name = 'Alex' 
+WHERE Name = 'Sami';
+SELECT* 
+FROM athletes;
+
+INSERT INTO Competition VALUES ('Course', 'Summer', '2021/06/17', '001');
+INSERT INTO Competition VALUES ('soccer', 'Winter', '2021/01/01', '007');
+INSERT INTO Competition VALUES ('soccer', 'Winter', '2021/02/10', '003');
+SELECT* 
+FROM Competition;
+
+INSERT INTO register VALUES (7, '0000005', '003');
+INSERT INTO register VALUES (5, '0000007', '007');
+SELECT* 
+FROM register;
+
+
+DELETE
+FROM Competition 
+WHERE Name='001';
+SELECT* 
+FROM Competition;
+
+DELETE
+FROM register 
+WHERE ID ='0000007';
+SELECT* 
+FROM register;
+
+UPDATE competitions 
+SET Venue = 'automne' 
+WHERE Name = '007';
+SELECT* 
+FROM Competition;
+
+UPDATE register 
+WHERE ID = '0000005';
+SELECT* 
+FROM register;
+
 ```
 "seed" SQL
 
 exemples SQL
 
 ```sql
+INSERT INTO athletes VALUES('Younes', '1999/02/10', 'M', '0000001');
+INSERT INTO athletes VALUES('Mohamed', '1997/06/10', 'M', '0000005');
+INSERT INTO athletes VALUES('Sami', '1999/07/05', 'M', '0000002');
+INSERT INTO athletes VALUES('Sarah', '1998/05/10', 'F', '0000007');
 
-INSERT INTO athletes (ID, Name, Gender, dob)
-VALUES
-(1, 'Younes', 'M', '1995-07-11'),
-(2, 'Mohamed', 'M', '1994-08-11'),
-(3, 'Sami', 'M', '1996-02-24'),
-(4, 'Sarah', 'F', '1999-12-09');
+SELECT* 
+FROM athletes;
+
+DELETE
+FROM athletes
+WHERE Name='Younes';
+SELECT* 
+FROM athletes;
+
+UPDATE athletes 
+SET Name = 'Alex' 
+WHERE Name = 'Sami';
+SELECT* 
+FROM athletes;
+
+INSERT INTO competitions VALUES ('Course', 'Summer', '2021/07/07', '001');
+INSERT INTO competitions VALUES ('soccer', 'Winter', '2021/02/10', '007');
+INSERT INTO competitions VALUES ('soccer', 'Winter', '2021/02/10', '003');
+SELECT* 
+FROM competitions;
+
+INSERT INTO register VALUES (7, '0000005', '003');
+INSERT INTO register VALUES (5, '0000007', '007');
+SELECT* 
+FROM register;
+
+
+DELETE
+FROM Competition 
+WHERE Name='001';
+SELECT* 
+FROM Competition;
+
+DELETE
+FROM register 
+WHERE ID ='0000007';
+SELECT* 
+FROM register;
+
+UPDATE Competition 
+SET Venue = 'automne' 
+WHERE Name = '007';
+SELECT* 
+FROM Competition;
+
+UPDATE register 
+WHERE ID = '0000005';
+SELECT* 
+FROM register;
+
 ```
 
 ### Livrable 1 (5%) Hello-World
