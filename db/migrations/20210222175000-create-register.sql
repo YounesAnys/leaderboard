@@ -1,4 +1,4 @@
-CREATE TABLE leaderboard (
+CREATE TABLE register (
 	athletes int,
 	Competition varchar(50),
 	start_time date,
