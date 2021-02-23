@@ -32,14 +32,7 @@ les migrations.
 ## Modèle relationnel / schéma SQL
 
 ## Schéma SQL
-```sql
-CREATE TABLE athletes (
-	ID int PRIMARY KEY,
-	Name varchar(50),
-	Gender varchar(6),
-	dob date
-);
-```
+
 ```sql
 CREATE TABLE athletes (
 	ID int PRIMARY KEY,
