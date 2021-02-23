@@ -70,9 +70,9 @@ WHERE Name = 'Sami';
 SELECT* 
 FROM athletes;
 
-INSERT INTO Competition VALUES ('Course', 'Summer', '2021/06/17', '001');
-INSERT INTO Competition VALUES ('soccer', 'Winter', '2021/01/01', '007');
-INSERT INTO Competition VALUES ('soccer', 'Winter', '2021/02/10', '003');
+INSERT INTO Competition VALUES ('Course', 'Summer', '2021/06/17');
+INSERT INTO Competition VALUES ('soccer', 'Winter', '2021/01/01');
+INSERT INTO Competition VALUES ('soccer', 'Winter', '2021/02/10');
 SELECT* 
 FROM Competition;
 
@@ -84,7 +84,7 @@ FROM register;
 
 DELETE
 FROM Competition 
-WHERE Name='001';
+WHERE Name='soccer';
 SELECT* 
 FROM Competition;
 
@@ -94,7 +94,7 @@ WHERE ID ='0000007';
 SELECT* 
 FROM register;
 
-UPDATE competitions 
+UPDATE Competition 
 SET Venue = 'automne' 
 WHERE Name = '007';
 SELECT* 
@@ -145,7 +145,7 @@ FROM register;
 
 DELETE
 FROM Competition 
-WHERE Name='001';
+WHERE Name='soccer';
 SELECT* 
 FROM Competition;
 
@@ -157,7 +157,7 @@ FROM register;
 
 UPDATE Competition 
 SET Venue = 'automne' 
-WHERE Name = '007';
+WHERE Name = 'soccer';
 SELECT* 
 FROM Competition;
 
