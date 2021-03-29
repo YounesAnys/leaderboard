@@ -27,6 +27,10 @@
 
 ![Modèle ER](/ERDiagramDeliverable3.png)
 
+## Modèle relationnel / schéma SQL
+
+![Modèle ER](/RelationalModelDeliverable3.png)
+
 ### Livrable 2 (5%)  Application + DB
 
 | Note | Description | 
@@ -46,8 +50,7 @@ les migrations.
 
 ![Modèle ER](files/ER.png)
 
-## Modèle relationnel / schéma SQL
-![Modèle ER](/RelationalModelDeliverable3.png)
+
 
 ## Modèle relationnel / schéma SQL
 
