@@ -23,6 +23,10 @@
 | 1.0 | Utilisation de git (messages de commit, tous les étudiants impliqués) |
 | / 10 | |
 
+## Modèle ER
+
+![Modèle ER](files/ERDiagramDeliverable3.png)
+
 ### Livrable 2 (5%)  Application + DB
 
 | Note | Description | 
