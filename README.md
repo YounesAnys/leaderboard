@@ -47,6 +47,9 @@ les migrations.
 ![Modèle ER](files/ER.png)
 
 ## Modèle relationnel / schéma SQL
+![Modèle ER](/RelationalModelDeliverable3.png)
+
+## Modèle relationnel / schéma SQL
 
 ## Schéma SQL
 
