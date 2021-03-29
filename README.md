@@ -25,7 +25,7 @@
 
 ## Modèle ER
 
-![Modèle ER](files/ERDiagramDeliverable3.png)
+![Modèle ER](/ERDiagramDeliverable3.png)
 
 ### Livrable 2 (5%)  Application + DB
 
