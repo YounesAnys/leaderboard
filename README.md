@@ -11,6 +11,17 @@
 
 ## Livrables
 
+### Livrable 4 (8%)  Présentation
+
+| Note | Description | 
+| --- | --- |
+| 3.0 | Diapositives |
+| 3.0 | Application |
+| 2.0 | SQL "seed" | 
+| 1.0 | Modèle ER / Modèle relationnel (et schéma SQL) |
+| 1.0 | README.md contient toutes les informations requises |
+| / 10 | |
+
 ### Livrable 3 (12%)  L'application
 
 | Note | Description | 
