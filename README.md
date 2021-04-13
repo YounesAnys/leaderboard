@@ -22,18 +22,6 @@
 | 1.0 | README.md contient toutes les informations requises |
 | / 10 | |
 
-### Livrable 3 (12%)  L'application
-
-| Note | Description | 
-| --- | --- |
-| 2.0 | Modèle ER  |
-| 2.0 | Modèle relationnel / schéma SQL |
-| 2.0 | SQL "seed" / exemples / migrations | 
-| 2.0 | Application |
-| 1.0 | README.md contient toutes les informations requises |
-| 1.0 | Utilisation de git (messages de commit, tous les étudiants impliqués) |
-| / 10 | |
-
 ## Modèle ER
 
 ![Modèle ER](/ERDiagramDeliverable3.png)
@@ -45,18 +33,6 @@
 ## SQL "seed" / exemples / migrations
 
 SVP voir le dossier database
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
